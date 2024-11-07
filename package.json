@@ -10,10 +10,9 @@
   },
   "dependencies": {
     "next": "^14.0.4",
-    "npm-next-smartcode": "https://github.com/Ice-wiz/smartcode-next",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vwo-next-smartcode": "github:Ice-wiz/smartcode-next"
+    "npm-next-smartcode": "https://github.com/Ice-wiz/next-inject-smartcode"
   },
   "devDependencies": {
     "postcss": "^8",

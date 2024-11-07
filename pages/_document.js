@@ -1,13 +1,10 @@
-import { Html, Head, Main, NextScript , Script } from "next/document";
-
+import { Html, Head, Main, NextScript } from "next/document";
 import { VWOScript } from "npm-next-smartcode";
 
 export default function Document() {
   return (
     <Html lang="en">
-      <Head>
-        <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
-      </Head>
+      <Head />
       <body>
         <Main />
         <NextScript />
@@ -18,6 +15,7 @@ export default function Document() {
           hideElement="body"
           hideElementStyle="opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;transition:none !important;"
           scriptAttributes={{
+            id: "vwoCode",
             strategy: "beforeInteractive"
           }}
         />
